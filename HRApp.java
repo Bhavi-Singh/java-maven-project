@@ -23,7 +23,7 @@ public class HRApp {
 			emp.setId(100);
 			emp.setFirstName("Bhavi");
 			emp.setLastName("Chauhan");
-			emp.setDesignation("Intern");
+			emp.setDesignation("fULL Time");
 			emp.setEmail("bhavi@gmail.com");
 			emp.setPhone("9283629291");
 			
