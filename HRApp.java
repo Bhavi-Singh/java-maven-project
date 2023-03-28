@@ -21,10 +21,10 @@ public class HRApp {
 			
 			Employee emp = new Employee();
 			emp.setId(100);
-			emp.setFirstName("Bhavi");
-			emp.setLastName("Singh");
+			emp.setFirstName("Tejswarup");
+			emp.setLastName("Ravuri");
 			emp.setDesignation("Intern");
-			emp.setEmail("bhavi@gmail.com");
+			emp.setEmail("tej@gmail.com");
 			emp.setPhone("9283629291");
 			
 			jmsContext.createProducer().send(empTopic,emp);
